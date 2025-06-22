@@ -1,8 +1,37 @@
 body{
-    background-color: rgb(3, 3, 64);
+    background-color: rgba(3, 3, 64, 0.708);
     font-family: Bai Jamjuree;
     color: azure;
 }
+
+#container{
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: rgba(219, 166, 255, 0.666);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo{
+    text-align: center;
+    height: 100%;
+}
+
+.cartao__conteudo h3{
+    background-color: rgba(21, 28, 21, 0.601);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+
+}
+
 footer{
     background-color: azure;
     color: black;
