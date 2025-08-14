@@ -1,7 +1,7 @@
 criaCartao(
     'História',
     'Quem foi o primeiro presidente do Brasil?',
-    'O primeiro presidente do Brasil foi Marechal Deodoro da Fonseca.'
+    'O primeiro presidente foi Marechal Deodoro da Fonseca.'
 )
 
 criaCartao(
